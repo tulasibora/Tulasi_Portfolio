@@ -1,0 +1,59 @@
+.navbar {
+  padding: 20px;
+  text-align: center;
+  background: #378b7a;
+  color: white;
+  font-size: 30px;
+  border-radius: 2px 2px 0 0;
+}
+.logo {
+  object-fit: cover;
+  height: 3rem;
+  text-decoration: none;
+  opacity: 0;
+  animation: slideRight 1s ease forwards;
+}
+.desctopItems {
+  margin: 1rem;
+  cursor: pointer;
+  font-size: large;
+  color: rgb(249, 246, 246);
+  background: transparent;
+}
+.desctopItems:hover {
+  box-shadow: 0 0 20px #fff;
+}
+
+.desctopmenu {
+  opacity: 0;
+  animation: slideTop 0.5s ease forwards;
+}
+ul {
+  list-style: none;
+}
+.active {
+  color: rgb(13, 70, 78);
+}
+
+/* /////////////////// */
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+@keyframes slideTop {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}

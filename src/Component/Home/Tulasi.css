@@ -1,0 +1,72 @@
+.girlimage {
+  height: 30em;
+}
+.intrcontent {
+  display: flex;
+  margin-left: 10em;
+}
+.intro-text {
+  margin-top: 13rem;
+}
+
+.para {
+  font-size: 1.5em;
+}
+.socialmedia a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  margin: 30px 15px 30px 0;
+  transition: 0.5s ease;
+}
+.socialmedia a:hover {
+  /* background: #5faeeb; */
+  box-shadow: 0 0 20px #fff;
+}
+.hii {
+  opacity: 0;
+  animation: slideBottom 1s ease forwards;
+  animation-delay: 0.7s;
+  font-size: 3em;
+  color: #378b7a;
+}
+.name {
+  animation: slideBottom 1s ease-in-out;
+  animation-delay: 0.8s;
+  font-size: 5em;
+  color: white;
+}
+
+.downloadbtn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  color: #fff;
+  width: 12em;
+  height: 3em;
+  border-radius: 1rem 1rem;
+  border: 2px solid #fff;
+}
+button:hover {
+  box-shadow: 0 0 20px #fff;
+}
+/* //////////////////////// */
+@keyframes slideBottom {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
