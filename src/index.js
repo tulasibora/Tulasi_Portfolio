@@ -15,13 +15,15 @@ import Skills from "./Component/Skills/Skills";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<App />}>
-      <Route path="" element={<Tulasi />} />
-      <Route path="about" element={<About />} />
-      <Route path="portfolio" element={<PortFolio />} />
-      <Route path="Skills" element={<Skills />} />
-      <Route path="contactme" element={<Contact />} />
-    </Route>
+    <>
+      <Route path="/" element={<App />}>
+        <Route path="" element={<Tulasi />} />
+        <Route path="about" element={<About />} />
+        <Route path="portfolio" element={<PortFolio />} />
+        <Route path="Skills" element={<Skills />} />
+        <Route path="contactme" element={<Contact />} />
+      </Route>
+    </>
   )
 );
 ReactDOM.createRoot(document.getElementById("root")).render(
