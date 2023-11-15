@@ -1,84 +1,12 @@
-.intrcontent {
-  position: absolute;
-  display: flex;
-  margin-left: 10em;
-  top: 0;
-  margin-top: 3em;
-}
-
-@media (max-width: 320px) {
-  .intrcontent {
-    width: 10em;
-    height: 2em;
-  }
-}
-
-/* ////////////// */
-.intro-text {
-  margin-top: 13rem;
-}
-.intro {
-  height: 100%;
-  width: 100%;
-}
-
-/* @media (max-width: 320px) {
-  .intro {
-    width: 50em;
-    height: 0em;
-  }
-} */
 .para {
   font-size: 1.5em;
 }
-.socialmedia a {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  background: transparent;
-  border: 2px solid #fff;
-  border-radius: 50%;
-  font-size: 20px;
-  color: #fff;
-  text-decoration: none;
-  margin: 30px 15px 30px 0;
-  transition: 0.5s ease;
-}
+
 .socialmedia a:hover {
   /* background: #5faeeb; */
   box-shadow: 0 0 20px #fff;
 }
-.hii {
-  opacity: 0;
-  animation: slideBottom 1s ease forwards;
-  animation-delay: 0.7s;
-  font-size: 3em;
-  color: #33f1cb;
-}
-.name {
-  animation: slideBottom 1s ease-in-out;
-  animation-delay: 0.8s;
-  font-size: 5em;
-  color: white;
-}
 
-.downloadbtn {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  background: transparent;
-  color: #33f1cb;
-  width: 12em;
-  height: 3em;
-  border-radius: 1rem 1rem;
-  border: 2px solid #33f1cb;
-  /* color: #378b7a; */
-}
-a:hover {
-  box-shadow: 0 0 20px #fff;
-}
 /* //////////////////////// */
 @keyframes slideBottom {
   0% {
@@ -97,11 +25,172 @@ video {
   height: 90vh;
   object-fit: cover;
 }
-
-@media (max-width: 320px) {
+@media screen and (max-width: 1024px) {
   video {
-    width: 60em;
-    height: 100em;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
   }
 }
-/* ////// */
+
+/* ///////// */
+
+.intrcontent {
+  position: absolute;
+  display: flex;
+  margin-left: 10em;
+  top: 0;
+  margin-top: 3em;
+}
+@media screen and (max-width: 1024px) {
+  .intrcontent {
+    position: absolute;
+    display: flex;
+    margin-left: 2em;
+    top: 0;
+    margin-top: 2em;
+  }
+}
+
+/* //////////// */
+
+.intro-text {
+  margin-top: 13rem;
+}
+@media screen and (max-width: 1024px) {
+  .intro-text {
+    margin-top: 4.5rem;
+  }
+}
+
+/* //////// */
+
+.hii {
+  opacity: 0;
+  animation: slideBottom 1s ease forwards;
+  animation-delay: 0.7s;
+  font-size: 3em;
+  color: #33f1cb;
+}
+
+@media screen and (max-width: 1024px) {
+  .hii {
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 0.7s;
+    font-size: 0.7em;
+    color: #33f1cb;
+  }
+}
+
+/* //// */
+
+.name {
+  animation: slideBottom 1s ease-in-out;
+  animation-delay: 0.8s;
+  font-size: 5em;
+  color: white;
+}
+@media screen and (max-width: 1024px) {
+  .name {
+    animation: slideBottom 1s ease-in-out;
+    animation-delay: 0.8s;
+    font-size: 1em;
+    color: white;
+  }
+}
+
+/* //// */
+.andiam {
+  font-size: 2em;
+}
+@media screen and (max-width: 1024px) {
+  .andiam {
+    font-size: 0.7em;
+  }
+}
+/* //// */
+.Developer {
+  font-size: 2em;
+  color: #33f1cb;
+}
+@media screen and (max-width: 1024px) {
+  .Developer {
+    font-size: 0.7em;
+    color: #33f1cb;
+  }
+}
+/* /////////////////// */
+
+.para1 {
+  font-size: 2em;
+}
+@media screen and (max-width: 1024px) {
+  .para1 {
+    font-size: 0.7em;
+    margin: 0px 0px 0px 0;
+  }
+}
+
+/* /////// */
+.socialmedia a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  margin: 30px 15px 30px 0;
+  transition: 0.5s ease;
+}
+@media screen and (max-width: 1024px) {
+  .socialmedia a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 0.1px solid #fff;
+    border-radius: 5px;
+    font-size: 5px;
+    color: #fff;
+    text-decoration: none;
+    margin: 3px 5px 5px 0;
+    transition: 0.5s ease;
+  }
+}
+/* //////////////// */
+
+.downloadbtn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  color: #33f1cb;
+  width: 12em;
+  height: 3em;
+  border-radius: 1rem 1rem;
+  border: 2px solid #33f1cb;
+  /* color: #378b7a; */
+}
+@media screen and (max-width: 1024px) {
+  .downloadbtn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color: #33f1cb;
+    width: 10em;
+    height: 18px;
+    border-radius: 9px 9px;
+    border: 0.5px solid #33f1cb;
+    font-size: 6px;
+    padding: 2px;
+  }
+}

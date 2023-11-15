@@ -1,0 +1,30 @@
+/* /////////// */
+@media screen and (max-width: 1024px) {
+  .aboutme {
+    text-decoration: underline;
+    font-size: 0.5em;
+    display: inline-flex;
+    /* margin-left: 1em; */
+  }
+}
+.aboutme {
+  text-decoration: underline;
+  font-size: 3.5em;
+  display: inline-flex;
+  margin-left: 14em;
+}
+.content {
+  text-wrap: wrap;
+  font-size: 1.2em;
+}
+.tulasiimage {
+  height: 28em;
+  width: 38em;
+  border-radius: 1em 2em 2em 2em;
+}
+.aboutdiv {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6em;
+}
