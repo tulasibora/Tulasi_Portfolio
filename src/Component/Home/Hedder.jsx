@@ -8,8 +8,7 @@ const Hedder = () => {
       <nav className="navbar">
         <div style={{ display: "flex" }}>
           <img src={logo} alt="logo" className="logo" />
-
-          <Link to="/" className="desctopmenu" style={{ marginLeft: "40em" }}>
+          <Link to="/" className="desctopmenu">
             <ul style={{ display: "flex" }}>
               <li>
                 <NavLink to="/" className="desctopItems">

@@ -12,20 +12,12 @@ export const Tulasi = () => {
             <p className="hii">Hi, It's me </p>
             <h1 className="name">MS.TULASI</h1>
             <p className="para" style={{ display: "flex" }}>
-              <p
-                style={{
-                  fontSize: "2em",
-                }}
-              >
-                And I'm a software
-              </p>
+              <p className="andiam">And I'm a software</p>
               <p>&nbsp;</p>
               <p>&nbsp;</p>
-              <p style={{ fontSize: "2em", color: "#33f1cb" }}>
-                Frontend Developer
-              </p>
+              <p className="Developer">Frontend Developer</p>
             </p>
-            <p style={{ fontSize: "2em" }}>
+            <p className="para1">
               with a passion for learning new things everyday.
             </p>
             <div className="socialmedia">
