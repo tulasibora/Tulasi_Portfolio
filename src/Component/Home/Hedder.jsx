@@ -21,8 +21,8 @@ const Hedder = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/portfolio" className="desctopItems">
-                  Portfolio
+                <NavLink to="/projects" className="desctopItems">
+                  Projects
                 </NavLink>
               </li>
               <li>

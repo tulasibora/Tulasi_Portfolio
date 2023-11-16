@@ -1,0 +1,10 @@
+.typohead {
+  font-size: 3em;
+  text-align: center;
+  text-decoration: underline;
+  color: aliceblue;
+}
+.techicons {
+  border: white solid 5px;
+  /* border-radius: 50%; */
+}

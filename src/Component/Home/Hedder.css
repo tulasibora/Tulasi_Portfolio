@@ -5,7 +5,7 @@
 ul {
   list-style: none;
 }
-.active {
+.desctopItems.active {
   color: rgb(13, 70, 78);
 }
 
@@ -44,9 +44,18 @@ ul {
 
 @media screen and (max-width: 1024px) {
   .navbar {
-    padding: 4px;
+    padding: 13px;
     text-align: center;
-    border-radius: 2px 2px 0 0;
+    color: white;
+    font-size: small;
+    background: #378b7a;
+  }
+}
+@media screen and (max-width: 760px) {
+  .navbar {
+    padding: 8px;
+    background: #378b7a;
+    text-align: center;
     color: white;
     font-size: small;
   }
@@ -56,10 +65,17 @@ ul {
 
 .desctopmenu {
   opacity: 0;
-  margin-left: 40em;
+  margin-left: 45em;
   animation: slideTop 0.5s ease forwards;
 }
 @media screen and (max-width: 1024px) {
+  .desctopmenu {
+    opacity: 0;
+    margin-left: 52em;
+    animation: slideTop 0.5s ease forwards;
+  }
+}
+@media screen and (max-width: 760px) {
   .desctopmenu {
     opacity: 0;
     margin-left: 15em;
@@ -75,6 +91,15 @@ ul {
   animation: slideRight 1s ease forwards;
 }
 @media screen and (max-width: 1024px) {
+  .logo {
+    object-fit: cover;
+    height: 1.2rem;
+    text-decoration: none;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+  }
+}
+@media screen and (max-width: 760px) {
   .logo {
     object-fit: cover;
     height: 0.8rem;
@@ -95,6 +120,15 @@ ul {
 @media screen and (max-width: 1024px) {
   .desctopItems {
     margin: 0.4em;
+    cursor: pointer;
+    font-size: 1em;
+    color: rgb(249, 246, 246);
+    background: transparent;
+  }
+}
+@media screen and (max-width: 760px) {
+  .desctopItems {
+    margin: 0.5em;
     cursor: pointer;
     font-size: 0.6rem;
     color: rgb(249, 246, 246);

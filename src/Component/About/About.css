@@ -1,30 +1,113 @@
 /* /////////// */
-@media screen and (max-width: 1024px) {
-  .aboutme {
-    text-decoration: underline;
-    font-size: 0.5em;
-    display: inline-flex;
-    /* margin-left: 1em; */
-  }
-}
 .aboutme {
   text-decoration: underline;
   font-size: 3.5em;
   display: inline-flex;
   margin-left: 14em;
 }
-.content {
-  text-wrap: wrap;
-  font-size: 1.2em;
+@media screen and (max-width: 1024px) {
+  .aboutme {
+    text-decoration: underline;
+    font-size: 1.5em;
+    display: inline-flex;
+    margin-left: 18em;
+    margin-top: 0.1em;
+  }
 }
+@media screen and (max-width: 760px) {
+  .aboutme {
+    text-decoration: underline;
+    font-size: 1em;
+    display: inline-flex;
+    margin-left: 11.5em;
+    margin-top: 0.1em;
+  }
+}
+/* ////////////// */
 .tulasiimage {
   height: 28em;
   width: 38em;
   border-radius: 1em 2em 2em 2em;
 }
+@media screen and (max-width: 1024px) {
+  .tulasiimage {
+    height: 30em;
+    width: 25em;
+    border-radius: 1em 2em 2em 2em;
+  }
+}
+@media screen and (max-width: 760px) {
+  .tulasiimage {
+    height: 12em;
+    width: 20em;
+    border-radius: 1em 2em 2em 2em;
+    margin-left: 1em;
+  }
+}
+/* ////////////////// */
+.FrontendDeveloper {
+  font-size: 3.5em;
+  color: #33f1cb;
+}
+@media screen and (max-width: 1024px) {
+  .FrontendDeveloper {
+    font-size: 2.5em;
+    color: #33f1cb;
+  }
+}
+@media screen and (max-width: 760px) {
+  .FrontendDeveloper {
+    margin-top: 0.5;
+    font-size: 2em;
+    color: #33f1cb;
+  }
+}
+.skillshead {
+  font-size: 1.5em;
+}
+/* /////////// */
 .aboutdiv {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 6em;
+  display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+  .aboutdiv {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+  }
+}
+@media screen and (max-width: 760px) {
+  .aboutdiv {
+    width: 80%;
+    margin-left: 2em;
+    margin-right: auto;
+    margin-top: 2em;
+    display: inline-block;
+    align-content: center;
+  }
+}
+/* /////////////////////////////// */
+.aboutmaindiv {
+  height: 50vh;
+  width: 100vw;
+}
+.content {
+  text-wrap: wrap;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #cfe1de;
+}
+.aboutcontent {
+  margin-left: 2em;
+  margin-top: 0.2em;
+}
+/* ///////// */
+.readbutton {
+  font-size: 1em;
 }

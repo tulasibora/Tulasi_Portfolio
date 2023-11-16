@@ -11,6 +11,7 @@ export const Tulasi = () => {
           <div className="intro-text">
             <p className="hii">Hi, It's me </p>
             <h1 className="name">MS.TULASI</h1>
+
             <p className="para" style={{ display: "flex" }}>
               <p className="andiam">And I'm a software</p>
               <p>&nbsp;</p>

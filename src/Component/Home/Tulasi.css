@@ -27,8 +27,15 @@ video {
 }
 @media screen and (max-width: 1024px) {
   video {
-    width: 50%;
-    height: 100%;
+    width: 100vw;
+    height: 94vh;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 760px) {
+  video {
+    width: 100vw;
+    height: 92vh;
     object-fit: cover;
   }
 }
@@ -46,12 +53,20 @@ video {
   .intrcontent {
     position: absolute;
     display: flex;
-    margin-left: 2em;
+    margin-left: 8em;
     top: 0;
-    margin-top: 2em;
+    margin-top: 2.5em;
   }
 }
-
+@media screen and (max-width: 760px) {
+  .intrcontent {
+    position: absolute;
+    display: flex;
+    margin-left: 2em;
+    top: 0;
+    margin-top: 3em;
+  }
+}
 /* //////////// */
 
 .intro-text {
@@ -59,10 +74,15 @@ video {
 }
 @media screen and (max-width: 1024px) {
   .intro-text {
-    margin-top: 4.5rem;
+    margin-top: 10rem;
   }
 }
-
+@media screen and (max-width: 760px) {
+  .intro-text {
+    margin-top: 8rem;
+    margin: 8em 1em 1em 1em 1em;
+  }
+}
 /* //////// */
 
 .hii {
@@ -78,11 +98,20 @@ video {
     opacity: 0;
     animation: slideBottom 1s ease forwards;
     animation-delay: 0.7s;
-    font-size: 0.7em;
+    font-size: 2.1em;
     color: #33f1cb;
   }
 }
-
+@media screen and (max-width: 760px) {
+  .hii {
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 0.7s;
+    font-size: 1.5em;
+    color: #33f1cb;
+    margin: 9em 1em 1em 1em 1em;
+  }
+}
 /* //// */
 
 .name {
@@ -95,18 +124,31 @@ video {
   .name {
     animation: slideBottom 1s ease-in-out;
     animation-delay: 0.8s;
-    font-size: 1em;
+    font-size: 3.8em;
     color: white;
   }
 }
-
+@media screen and (max-width: 760px) {
+  .name {
+    animation: slideBottom 1s ease-in-out;
+    animation-delay: 0.8s;
+    font-size: 2.5em;
+    color: white;
+    margin-top: 0.2em;
+  }
+}
 /* //// */
 .andiam {
   font-size: 2em;
 }
 @media screen and (max-width: 1024px) {
   .andiam {
-    font-size: 0.7em;
+    font-size: 1.7em;
+  }
+}
+@media screen and (max-width: 760px) {
+  .andiam {
+    font-size: 0.9em;
   }
 }
 /* //// */
@@ -116,7 +158,13 @@ video {
 }
 @media screen and (max-width: 1024px) {
   .Developer {
-    font-size: 0.7em;
+    font-size: 1.7em;
+    color: #33f1cb;
+  }
+}
+@media screen and (max-width: 760px) {
+  .Developer {
+    font-size: 1em;
     color: #33f1cb;
   }
 }
@@ -127,11 +175,17 @@ video {
 }
 @media screen and (max-width: 1024px) {
   .para1 {
-    font-size: 0.7em;
+    font-size: 1.7em;
     margin: 0px 0px 0px 0;
   }
 }
-
+@media screen and (max-width: 760px) {
+  .para1 {
+    font-size: 1.5em;
+    margin: 0px 0px 0px 0;
+    margin-top: 0.2em;
+  }
+}
 /* /////// */
 .socialmedia a {
   display: inline-flex;
@@ -153,15 +207,32 @@ video {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 10px;
-    height: 10px;
+    width: 30px;
+    height: 30px;
     background: transparent;
-    border: 0.1px solid #fff;
-    border-radius: 5px;
-    font-size: 5px;
+    border: 0.8px solid #fff;
+    border-radius: 50%;
+    font-size: 15px;
     color: #fff;
     text-decoration: none;
-    margin: 3px 5px 5px 0;
+    margin: 20px 10px 15px 0;
+    transition: 0.5s ease;
+  }
+}
+@media screen and (max-width: 760px) {
+  .socialmedia a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background: transparent;
+    border: 0.5px solid #fff;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    margin: 20px 18px 18px 0;
     transition: 0.5s ease;
   }
 }
@@ -187,10 +258,25 @@ video {
     background: transparent;
     color: #33f1cb;
     width: 10em;
-    height: 18px;
+    height: 2em;
+    border-radius: 0.8em 0.8em;
+    border: 0.5px solid #33f1cb;
+    font-size: 1em;
+    padding: 2px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .downloadbtn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color: #33f1cb;
+    width: 10em;
+    height: 20px;
     border-radius: 9px 9px;
     border: 0.5px solid #33f1cb;
-    font-size: 6px;
-    padding: 2px;
+    font-size: 0.7em;
+    padding: 5px;
   }
 }
