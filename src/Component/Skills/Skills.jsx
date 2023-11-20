@@ -1,87 +1,102 @@
-import Paper from "@mui/material/Paper";
 import React from "react";
 import "./Skills.css";
-import reactlogo from "../../Images/reactlogo.png";
+import reactlogo from "../../Images/react.png";
 import reduxlogo from "../../Images/redux.png";
-import javascript from "../../Images/javascript.png";
-import css from "../../Images/css.png";
+import javascript from "../../Images/js.png";
+import css from "../../Images/css-3.png";
 import html from "../../Images/html.png";
-import mui from "../../Images/mui.png";
-import GitHub from "../../Images/git.png";
-import Git from "../../Images/github.png";
-import json from "../../Images/jsonlogo.avif";
+import mui from "../../Images/pngwing.com.png";
+import GitHub from "../../Images/code.png";
+import Git from "../../Images/commit-git.png";
+import json from "../../Images/json.png";
 import postman from "../../Images/postman.png";
-import api from "../../Images/restimage.png";
-import { Card } from "@mui/material";
+import api from "../../Images/api.png";
+import { Box, Grid } from "@mui/material";
 
 const Skills = () => {
-  // const imageList = [
-  //   {
-  //     img: reactlogo,
-  //     name: "React",
-  //   },
-  // ];
-
   return (
     <>
-      <Card></Card>
-      <Paper
-        style={{
-          height: "80vh",
-          width: "90vw",
-          marginLeft: "auto",
-          marginRight: "auto",
-          marginTop: "2em",
-          backgroundColor: "black",
-        }}
-      >
+      <Box className="paperDiv">
         <p className="typohead">My Skills</p>
-
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-around",
-            height: "10em",
-            marginLeft: "0em",
-            marginTop: "2em",
-          }}
-        >
-          <img src={reactlogo} className="techicons" />
-          <img src={reduxlogo} className="techicons" />
-          <img src={javascript} className="techicons" />
-          <img src={css} className="techicons" />
+        <div className="linediv1">
+          <Grid container spacing={1}>
+            <Grid item xs={4}>
+              <Box className="boxstyle">
+                <img src={reactlogo} alt="react " className="imagesize" />
+                <p>React</p>
+              </Box>
+            </Grid>
+            <Grid item xs={4}>
+              <Box className="boxstyle">
+                <img src={reduxlogo} alt="Redux " className="imagesize" />
+                <p>Redux</p>
+              </Box>
+            </Grid>
+            <Grid item xs={4}>
+              <Box className="boxstyle">
+                <img src={javascript} alt="Redux " className="imagesize" />
+                <p>JavaScript</p>
+              </Box>
+            </Grid>
+          </Grid>
         </div>
-        <br />
-        <br />
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-around",
-            height: "10em",
-            marginLeft: "13em",
-            marginTop: "2em",
-          }}
-        >
-          <img src={html} className="techicons" />
-          <img src={mui} className="techicons" />
-          <img src={GitHub} className="techicons" />
-          <img src={Git} className="techicons" />
+        <div className="linediv1">
+          <Grid container spacing={2}>
+            <Grid item xs={4}>
+              <Box className="boxstyle">
+                <img src={css} className="imagesize" alt="Redux " />
+                <p>CSS</p>
+              </Box>
+            </Grid>
+            <Grid item xs={4}>
+              <Box className="boxstyle">
+                <img src={html} alt="Redux " className="imagesize" />
+                <p>HTML</p>
+              </Box>
+            </Grid>
+            <Grid item xs={4}>
+              <Box className="boxstyle">
+                <img src={mui} alt="Redux " className="imagesize" />
+                <p>MUI</p>
+              </Box>
+            </Grid>
+            <Grid item xs={4}>
+              <Box className="boxstyle">
+                <img src={GitHub} alt="Redux " className="imagesize" />
+                <p>GitHub</p>
+              </Box>
+            </Grid>
+            <Grid item xs={4}>
+              <Box className="boxstyle">
+                <img src={Git} alt="Redux " className="imagesize" />
+                <p>Git</p>
+              </Box>
+            </Grid>
+            <Grid item xs={4}>
+              <Box className="boxstyle">
+                <img src={json} alt="Redux " className="imagesize" />
+                <p>JSON</p>
+              </Box>
+            </Grid>
+          </Grid>
         </div>
-        <br />
-        <br />
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-around",
-            height: "10em",
-            marginTop: "3em",
-          }}
-        >
-          <img src={json} className="techicons" />
-          <img src={postman} className="techicons" />
-          <img src={api} className="techicons" />
+        <div className="linediv1">
+          <Grid container spacing={2}>
+            <Grid item xs={4}>
+              <Box className="boxstyle">
+                <img src={postman} alt="Redux " className="imagesize" />
+                <p>Postman</p>
+              </Box>
+            </Grid>
+            <Grid item xs={4}>
+              <Box className="boxstyle">
+                <img src={api} alt="Redux " className="imagesize" />
+                <p>Api</p>
+              </Box>
+            </Grid>
+          </Grid>
         </div>
-      </Paper>
+      </Box>
     </>
   );
 };
