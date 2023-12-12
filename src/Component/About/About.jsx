@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./About.css";
-import image from "../../Images/girl3.jpg";
+import image from "../../Images/Tulasi2.jpg";
 import Button from "@mui/material/Button";
 const About = () => {
   const [more, Setmore] = useState(false);
@@ -8,8 +8,7 @@ const About = () => {
     <div className="aboutmaindiv">
       <p className="aboutme">
         <p> About </p>
-        <p>&nbsp;</p>
-        <p style={{ color: "#33f1cb" }}> Me </p>
+        <span style={{ color: "#33f1cb" }}> Me </span>
       </p>
       <div className="aboutdiv">
         <img src={image} className="tulasiimage" />

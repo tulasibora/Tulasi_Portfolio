@@ -30,11 +30,6 @@ const Hedder = () => {
                   Skills
                 </NavLink>
               </li>
-              <li>
-                <NavLink to="/contactme" className="desctopItems">
-                  contact me
-                </NavLink>
-              </li>
             </ul>
           </Link>
         </div>
@@ -44,3 +39,9 @@ const Hedder = () => {
 };
 
 export default Hedder;
+
+//  <li>
+//    <NavLink to="/contactme" className="desctopItems">
+//      contact me
+//    </NavLink>
+//  </li>;

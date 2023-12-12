@@ -1,6 +1,6 @@
 import React from "react";
 import "./Tulasi.css";
-import resume from "./AprilPaySlip.pdf";
+import resume from "./Resume.pdf";
 import sample from "../../Images/vedio.mp4";
 export const Tulasi = () => {
   return (

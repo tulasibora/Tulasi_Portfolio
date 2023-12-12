@@ -31,15 +31,15 @@
 }
 @media screen and (max-width: 1024px) {
   .tulasiimage {
-    height: 30em;
-    width: 25em;
+    height: 20em;
+    width: 20em;
     border-radius: 1em 2em 2em 2em;
   }
 }
 @media screen and (max-width: 760px) {
   .tulasiimage {
-    height: 12em;
-    width: 20em;
+    height: 20em;
+    width: 18em;
     border-radius: 1em 2em 2em 2em;
     margin-left: 1em;
   }

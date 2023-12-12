@@ -1,0 +1,49 @@
+.head {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 3.5em;
+}
+.maindiv {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 1024px) {
+  .maindiv {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .maindiv {
+    display: inline;
+    justify-content: center;
+  }
+}
+/* /////////////////////////////// */
+.head1 {
+  color: #33f1cb;
+}
+.labgenlogo {
+  height: 15em;
+  width: 18em;
+}
+@media screen and (max-width: 1024px) {
+  .labgenlogo {
+    height: 15em;
+    width: 18em;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .labgenlogo {
+    padding: auto;
+    height: 12em;
+    width: 15em;
+    margin-left: 2em;
+    padding-bottom: 1em;
+  }
+}
+.div2 {
+  margin-left: 2em;
+}
